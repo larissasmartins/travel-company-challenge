@@ -6,6 +6,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+#icon{
+    max-height: 15px;
+    cursor: pointer;
+}
 
 body{
     background-color: rgb(220, 207, 236);
@@ -14,7 +18,6 @@ body{
 }
 .container-content{
     background-color: rgb(245, 241, 241);
-    padding: 1rem;
     max-width: 60rem;
     min-height: 300px;
     margin: auto;
@@ -26,7 +29,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 24px;
+    padding: 24px; 
 }
 .menu-nav-logo{
     color: #4F517D;
@@ -61,4 +64,37 @@ a:hover{
     color: rgb(220, 207, 236);
     cursor: pointer;
     transition: .3s;
+}
+.container-main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.container-main-text{
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 1.5rem;
+    gap: 32px;
+}
+.container-main-title{
+    font-family: 'Domine';
+    font-size: 3.2rem;
+    color: #4F517D;
+    justify-content: center;
+    align-items: center;
+}
+.container-main-subtitle{
+    font-size: 1.1rem;
+    text-align: start;
+}
+.main-btn{
+    background-color: #FF6584;
+    max-width: 12rem;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-size: 1rem;
+    color: #fff;
 }
