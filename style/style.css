@@ -31,11 +31,11 @@ body{
     font-size: 1rem;
 }
 .container-content{
+    height: auto;
     background-color: var(--tertiary-color);
     max-width: 60rem;
-    min-height: 300px;
-    margin: auto;
-    margin-top: 3rem;
+    width: 100%;
+    margin: 3rem auto;
     border-radius: 20px;
     box-shadow: 5px 5px 5px rgba(157, 132, 191, 0.377);
 }
@@ -51,6 +51,7 @@ body{
     color: var(--secondary-color);
     font-family: 'Lobster', cursive;
     font-size: 2.6em;
+    float: left;
 }
 .menu-nav-links{
     display: flex;
@@ -125,8 +126,7 @@ body{
     cursor: pointer;
 }
 .container-main-image{
-    max-width: fit-content;
-    max-height: fit-content;
+    object-fit: cover;
 }
 
 /* Footer content */
@@ -160,9 +160,9 @@ body{
     color: #2e3053;
 }
 .footer-companies{
-text-decoration: none;
-font-family: 'Sarala', sans-serif;
-color: #2e3053;
+    text-decoration: none;
+    font-family: 'Sarala', sans-serif;
+    color: #2e3053;
 }
 .footer-image{
     max-width: fit-content;
