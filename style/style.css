@@ -1,29 +1,43 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Domine&family=Lobster&display=swap');
 
+:root{
+    --primary-color: #e6dbf3;
+    --secondary-color: #4f517d;
+    --tertiary-color: #d1c3e7;
+    --quaternary-color: #ff6584;
+}
+
+.dark-mode {
+    --primary-color: #000106;
+    --secondary-color: #fff;
+    --tertiary-color: #181717;
+    --quaternary-color: #9368B7;
+}
+
+#icon{
+    max-height: 15px;
+    cursor: pointer;
+}
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-#icon{
-    max-height: 15px;
-    cursor: pointer;
-}
 
 body{
-    background-color: rgb(220, 207, 236);
+    background-color: var(--primary-color);
     font-family: serif;
     font-size: 1rem;
 }
 .container-content{
-    background-color: rgb(245, 241, 241);
+    background-color: var(--tertiary-color);
     max-width: 60rem;
     min-height: 300px;
     margin: auto;
     margin-top: 3rem;
     border-radius: 20px;
-    box-shadow: 5px 5px 5px rgba(157, 132, 191, 0.233);
+    box-shadow: 5px 5px 5px rgba(157, 132, 191, 0.377);
 }
 
 /* Menu content */
@@ -34,7 +48,7 @@ body{
     padding: 24px; 
 }
 .menu-nav-logo{
-    color: #4F517D;
+    color: var(--secondary-color);
     font-family: 'Lobster', cursive;
     font-size: 2.6em;
 }
@@ -45,7 +59,7 @@ body{
 }
 .nav-links{
     text-decoration: none;
-    color: #4F517D;
+    color: var(--secondary-color);
     font-weight: 300;
 }
 .nav-links:hover{
@@ -56,14 +70,14 @@ body{
     padding: 1rem;
     border-radius: 2rem;
     max-width: 6rem;
-    border: 2px solid #4F517D;
-    color: #4F517D;
+    border: 2px solid var(--secondary-color);
+    color: var(--secondary-color);
     font-family: serif;
     font-size: 1rem;
 }
 .menu-nav-btn:hover{
-    background-color: #4F517D;
-    color: rgb(220, 207, 236);
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
     cursor: pointer;
     transition: .3s;
 }
@@ -80,12 +94,12 @@ body{
     flex-direction: column;
     padding: 0 0 0 1.5rem;
     gap: 32px;
-    color: rgb(88, 87, 87);
+    color: rgb(71, 71, 71);
 }
 .container-main-title{
     font-family: 'Domine';
     font-size: 3.2rem;
-    color: #4F517D;
+    color: var(--secondary-color);
     justify-content: center;
     align-items: center;
 }
@@ -94,7 +108,7 @@ body{
     text-align: start;
 }
 .main-btn{
-    background-color: #FF6584;
+    background-color: var(--quaternary-color);
     max-width: 12rem;
     height: 50px;
     border: none;
@@ -117,7 +131,7 @@ body{
 
 /* Footer content */
 .footer-info{
-    background-color:#FF6584;
+    background-color: var(--quaternary-color);
     border: none;
     margin: 0 1.5rem 1rem 1.5rem;
     padding: .4rem 0 0 .4rem;
