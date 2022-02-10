@@ -18,3 +18,6 @@ The goal is to create a responsive page with dark mode and with the option of do
 6. To download a file on the main button;</br>
 7. Responsive layout;</p>
 
+## Layout
+
+![git-mundie-project](https://user-images.githubusercontent.com/96597131/153320626-c5687d44-3a23-4118-9ba9-0b115c67f3dd.gif)
