@@ -1,0 +1,37 @@
+/* MAIN TEXT RESPONSIVENESS */
+
+@media (max-width: 740px){
+    .container-main-text{
+        padding: .1rem 0 0 .5rem;
+        gap: .5rem;  
+    }
+    .container-main-title{
+        font-size: 2.5rem;
+    }
+    .container-main-subtitle{
+        font-size: 0.9rem;
+    }
+}
+
+/* MENU NAV AND FOOTER RESPONSIVENESS */
+@media (max-width:600px){
+    .menu-nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;        
+    }
+    .menu-nav-links{
+        padding: 3%;
+    }
+    .footer-info{
+        margin: 2rem 0 0 0;
+    }
+}
+
+@media (max-width: 760px){
+    .footer-text-companies{
+        flex-direction: column;
+        gap: 10%;
+        font-size: 1rem;
+    }
+}
