@@ -6,6 +6,7 @@
     <meta name="description" content="A travel company website">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link href="style/style.css" type="text/css" rel="stylesheet">
+    <link href="style/responsive.css" type="text/css" rel="stylesheet">
     <title>Mundie | Travel Tours</title>
 </head>
 <body>
@@ -33,13 +34,21 @@
                 <p class="container-main-subtitle">You learn so much travelling. You experience so many things you never dreamt you would and when you travel, you certainly do invest in yourself.</p>
                 <a href="CV2.pdf" download="CV2.pdf" type="application/pdf" class="main-btn">Get your free quote</a>
             </div>
-            <img class="container-main-image" src="images/undraw_exploring_re_grb9.png" alt="Travel image">
+            <picture>
+                <source media="(max-width: 580px)" srcset="images/main-image-p.png">
+                <source media="(max-width: 730px)" srcset="images/main-image-m.png">
+                <img class="container-main-image" src="images/main-image.png" alt="Travel image">
+            </picture>
         </section>
     
     <!--Footer with companies links-->
         <footer>
             <div class="footer-info">
-                <img class="footer-image" src="images/undraw_aircraft_fbvl.png" alt="Airplane">
+                <picture>
+                    <source media="(max-width: 580px)" srcset="images/footer-image-p.png">
+                <img class="footer-image" src="images/footer-image.png" alt="Airplane">
+                </picture>
+                
                 <div class="footer-text">
                     <p class="footer-text-powered">Powered by</p>
                     <ul class="footer-text-companies">
