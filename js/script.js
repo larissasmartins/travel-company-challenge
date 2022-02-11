@@ -13,19 +13,23 @@ icon.onclick = function(){
 
 //Random number using JSON
 
-var poweredByList = ["footer-github", "footer-linkedin", "footer-trivago"];
-var footerCompany = chooseOne(poweredByList); 
+var footerTitles = [ 
+  {"title": "Github"},
+  {"title": "Linkedin"}, 
+  {"title": "Trivago"},
+  {"title": "Airbnb"},
+  {"title": "Decolar"}
+];
 
-function chooseOne(poweredByList){
-  return poweredByList[parseInt(Math.random()*poweredByList.length)];
+function randomNumberFromInterval(min, max){
+  return Math.floor(Math.random() * (max - min + 1) + min);
 }
 
+var components = document.getElementById("footer").getElementsByTagName("li");
 
-/*
-if (footerCompanies == "array") {
-  return generateRandomJson();
+for (var i = 0; i < components.length; i++){
+  const component = components[i];
+  const index = randomNumberFromInterval(0, components.length -1);
+  const footerCompany = footerTitles[index].title;
+  component.textContent = footerCompany;
 }
-
-function generateRandomJson () {
-  return chooseOne(footerCompanies);
-} */
