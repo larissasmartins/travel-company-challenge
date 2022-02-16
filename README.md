@@ -20,4 +20,8 @@ The goal is to create a responsive page with dark mode and with the option of do
 
 ## Layout
 
+</br><h3 align="center">
+  <a href="https://larissasmartins.github.io/travel-company-challenge/">Click here to check it out!</a>
+</h3></br>
+
 ![git-mundie-project](https://user-images.githubusercontent.com/96597131/153320626-c5687d44-3a23-4118-9ba9-0b115c67f3dd.gif)
