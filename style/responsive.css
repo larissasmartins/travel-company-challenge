@@ -1,20 +1,5 @@
-/* MAIN TEXT RESPONSIVENESS */
-
-@media (max-width: 740px){
-    .container-main-text{
-        padding: .1rem 0 0 .5rem;
-        gap: .5rem;  
-    }
-    .container-main-title{
-        font-size: 2.5rem;
-    }
-    .container-main-subtitle{
-        font-size: 0.9rem;
-    }
-}
-
-/* MENU NAV AND FOOTER RESPONSIVENESS */
-@media (max-width:600px){
+/* MOBILE DEVICE RESPONSIVENESS */
+@media (max-width:630px){
     .menu-nav{
         display: flex;
         flex-direction: column;
@@ -23,15 +8,81 @@
     .menu-nav-links{
         padding: 3%;
     }
+    .container-main{
+        flex-direction: column;
+        justify-content: center;
+    }
     .footer-info{
         margin: 2rem 0 0 0;
+        font-size: .9rem;
     }
 }
 
-@media (max-width: 760px){
+@media screen and (max-width:450px){
+    .container-main{
+        justify-content: center;
+    }
+    .container-main-text{
+        gap: 1.5rem;
+        padding:  0 1.5rem 0 1.5rem;
+    }
+    .container-main-image{
+        display: none !important;
+    }
+    .container-main-title{
+        text-align:center ;
+
+    }
+    .container-main-subtitle{
+        text-align: center;
+    }
+    .main-btn{
+        display:block;
+        text-align: center;
+        max-width: none;
+    }
+    .footer-text-powered{
+        flex-direction: column;
+        font-size: 12px;
+        padding: 0  0 0 8px;
+    }
     .footer-text-companies{
         flex-direction: column;
-        gap: 10%;
-        font-size: 1rem;
+        gap: 7%;
+        font-size: .9rem;
+        margin-left: .9rem;
+    }
+}
+
+/* TABLET RESPONSIVENESS */
+@media (min-width:450px)and (max-width:760px){
+    .container-main{
+        justify-content: center;
+    }
+    .container-main-text{
+        gap: 1.5rem;
+        padding: .5rem .5rem 0 .5rem;
+    }
+    .container-main-title{
+        text-align:center;
+    }
+    .container-main-subtitle{
+        text-align: center;
+        font-size: 16px;
+    }
+    .main-btn{
+        display:block;
+        text-align: center;
+        width: 100%;
+        margin: auto;
+    }
+    .footer-text-powered{
+        font-size: 15px;
+        padding: 5px 0 0 8px;
+    }
+    .footer-text-companies{
+        flex-direction: row;
+        gap: 8%;
+        font-size: 1.2rem;
     }
 }
