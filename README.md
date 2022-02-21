@@ -19,7 +19,7 @@ The goal is to create a responsive page with dark mode and with the option of do
 7. Responsive layout;</p>
 
 ## Layout
-</br><p align="center">In progress... :hourglass_flowing_sand:</p>
+<h3 align="center">Status: Done! :white_check_mark:</h3>
 
 <h3 align="center">
   <a href="https://larissasmartins.github.io/travel-company-challenge/">Click here to check it out!</a>
