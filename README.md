@@ -25,4 +25,6 @@ The goal is to create a responsive page with dark mode and with the option of do
   <a href="https://larissasmartins.github.io/travel-company-challenge/">Click here to check it out!</a>
 </h3></br>
 
-![git-mundie-project](https://user-images.githubusercontent.com/96597131/153320626-c5687d44-3a23-4118-9ba9-0b115c67f3dd.gif)
+![gifmundie1](https://user-images.githubusercontent.com/96597131/154992714-4add7e96-4ae9-4535-b257-ed2209874c88.gif)
+</br>
+![gifmundie2](https://user-images.githubusercontent.com/96597131/154992918-97f221dd-a5e3-4618-b5a5-275664600175.gif)
