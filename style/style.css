@@ -109,7 +109,7 @@ body{
 .container-main-subtitle{
     font-size: 1.1rem;
     text-align: start;
-    color: rgb(78, 78, 78);
+    color: var(--secondary-color);
 }
 .main-btn{
     background-color: var(--quaternary-color);
