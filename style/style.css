@@ -36,7 +36,7 @@ body{
     background-color: var(--primary-color);
     max-width: 60rem;
     width: 100%;
-    margin: 2rem auto 1rem auto;
+    margin: 1rem auto;
     border-radius: 20px;
     box-shadow: 5px 5px 5px rgba(157, 132, 191, 0.377);
 }
@@ -109,7 +109,7 @@ body{
 .container-main-subtitle{
     font-size: 1.1rem;
     text-align: start;
-    color: rgb(78, 78, 78);
+    color: var(--secondary-color);
 }
 .main-btn{
     background-color: var(--quaternary-color);
@@ -138,7 +138,7 @@ body{
 .footer-info{
     background-color: var(--quaternary-color);
     border: none;
-    margin: 1rem 1.5rem 1rem 1.5rem;
+    margin: 1rem 1rem;
     padding: .4rem 0 0 .4rem;
     border-radius: 1.5rem;
     max-height: max-content;
@@ -172,6 +172,5 @@ body{
     color: var(--primary-color);
 }
 .footer-image{
-    max-width: fit-content;
-    max-height: fit-content;
+    background: cover;
 }
