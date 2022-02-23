@@ -22,7 +22,7 @@ The goal is to create a responsive page with dark mode and with the option of do
 <h3 align="center">Status: Done! :white_check_mark:</h3>
 
 <h3 align="center">
-  <a href="https://larissasmartins.github.io/travel-company-challenge/">Click here to check it out!</a>
+  <a href="https://travel-company-challenge.vercel.app/">Click here to check it out!</a>
 </h3></br>
 
 ![gifmundie1](https://user-images.githubusercontent.com/96597131/154992714-4add7e96-4ae9-4535-b257-ed2209874c88.gif)
