@@ -25,6 +25,5 @@ The goal is to create a responsive page with dark mode and with the option of do
   <a href="https://travel-company-challenge.vercel.app/">Click here to check it out!</a>
 </h3></br>
 
-![gifmundie1](https://user-images.githubusercontent.com/96597131/154992714-4add7e96-4ae9-4535-b257-ed2209874c88.gif)
-</br>
+![gifmundie2](https://user-images.githubusercontent.com/96597131/156893666-9e2f6d33-d51e-44ca-989a-1e477600828d.gif)</br>
 ![gifmundie2](https://user-images.githubusercontent.com/96597131/154992918-97f221dd-a5e3-4618-b5a5-275664600175.gif)
